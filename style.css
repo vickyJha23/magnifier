@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+     background: #f1f5f9;
+     font-family: "Open sans", sans-serif;    
+}
+
+.title{
+     margin: 2rem 0;  
+     margin-bottom: 4rem; 
+}
+.title h1{
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+     margin-bottom: 0.6rem;
+}
+.underline{
+     width: 20rem;
+     height: 0.25rem;
+     background: goldenrod;
+     margin: 0 auto;
+}
+#magnifier{
+    position: relative; 
+    width: 90vw;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 62.5rem;
+    background-color: #ffff;
+}
+
+img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+.mg-glass{
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     top: 0;   
+     left: 0;
+     cursor: none;
+     border: 3px solid black;
+     border-radius: 50%;
+};
