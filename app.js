@@ -1,4 +1,4 @@
- console.log("Har Har Mahadev");
+//  console.log("Har Har Mahadev");
  function handleImageMagnification(zoom){
       const img = document.querySelector("#mg-img");
       const mgGlass = document.createElement("div");
